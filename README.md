@@ -26,7 +26,7 @@ Flag : `tjctf{wHa1_A_Gr8_1nsp3ct0r!}`
 
 ### Circles (Crypto) - 10
 
-The hint leads us to a this website : https://www.fonts.com
+The hint leads us to this website : https://www.fonts.com
 Searching for circular fonts gives us the required typeface and we can convert the given string to plaintext.
 
 Flag : `tjctf{B3auT1ful_f0Nt}`
@@ -177,7 +177,7 @@ The webpage, although vulnerable to SQLi, filters out some characters like '--'.
 
 Flag : `tjctf{W0w_wHa1_a_SqL1_exPeRt!}`
 
-### Titanic () -
+### Titanic (Crypto) - 35
 
 Just download the titanic movie script and use the following python code to convert all the words into md5 hashes and test it with the provided hash of the flag.
 
