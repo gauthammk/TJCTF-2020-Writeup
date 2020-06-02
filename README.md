@@ -2,12 +2,12 @@
 
 ## Overview
 
-| Misc                          | Web                             | Crypto                        | Reversing                 | Forensics               |
-| ----------------------------- | ------------------------------- | ----------------------------- | ------------------------- | ----------------------- |
-| [A First Step](#a-first-step) | [Broken Button](#broken-button) | [Circles](#circles)           | [Forwarding](#forwarding) | [Ling Ling](#ling-ling) |
-| [Discord](#discord)           | [Login](#login)                 | [Speed Runner](#speed-runner) |                           |                         |
-|                               | [File Viewer](#file-viewer)     | [Typewriter](#typewriter)     |                           |                         |
-|                               | [Login Sequel](#login-sequel)   | [Titanic](#titanic)           |                           |                         |
+| Misc         | Web           | Crypto       | Reversing  | Forensics |
+| ------------ | ------------- | ------------ | ---------- | --------- |
+| A First Step | Broken Button | Circles      | Forwarding | Ling Ling |
+| Discord      | Login         | Speed Runner |            |           |
+|              | File Viewer   | Typewriter   |            |           |
+|              | Login Sequel  | Titanic      |            |           |
 
 ### A First Step (Misc) - 5
 
