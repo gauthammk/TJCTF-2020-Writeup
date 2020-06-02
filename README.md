@@ -2,17 +2,24 @@
 
 ## Overview
 
+| Misc         | Web           | Crypto       | Reversing  | Forensics |
+| ------------ | ------------- | ------------ | ---------- | --------- |
+| A First Step | Broken Button | Circles      | Forwarding | Ling Ling |
+| Discord      | Login         | Speed Runner |            |           |
+|              | File Viewer   | Typewriter   |            |           |
+|              | Login Sequel  | Titanic      |            |           |
+
 ### A First Step (Misc) - 5
 
 Free flag.
 
-Flag : `tjctf{so0p3r_d0oper_5ecr3t}`
+> Flag : `tjctf{so0p3r_d0oper_5ecr3t}`
 
 ### Discord (Misc) - 5
 
 Join the Discord server for a flag.
 
-Flag : `tjctf{we_love_wumpus}`
+> Flag : `tjctf{we_love_wumpus}`
 
 ### Broken Button (Web) - 10
 
@@ -22,34 +29,34 @@ The link opens up a website with a hidden button like so.
 
 Navigating to find_the_flag!.html gives us the flag.
 
-Flag : `tjctf{wHa1_A_Gr8_1nsp3ct0r!}`
+> Flag : `tjctf{wHa1_A_Gr8_1nsp3ct0r!}`
 
 ### Circles (Crypto) - 10
 
 The hint leads us to this website : https://www.fonts.com
 Searching for circular fonts gives us the required typeface and we can convert the given string to plaintext.
 
-Flag : `tjctf{B3auT1ful_f0Nt}`
+> Flag : `tjctf{B3auT1ful_f0Nt}`
 
 ### Speed Runner (Crypto) - 10
 
 The title hints at a running key cipher. Use any tool to bruteforce a running key/ Vigenère cipher.
 I used : https://www.boxentriq.com/code-breaking/vigenere-cipher
 
-Flag : `tjctf{new_tech_new_tech_go_fast_go_fast}`
+> Flag : `tjctf{new_tech_new_tech_go_fast_go_fast}`
 
 ### Forwarding (Reversing) - 10
 
 The file given to us is a linux binary that prompts us to ..."guess the flag"?
 Just an attempt to grab low hanging fruit by running `strings` on the executable gives us the flag.
 
-Flag : `tjctf{just_g3tt1n9_st4rt3d}`
+> Flag : `tjctf{just_g3tt1n9_st4rt3d}`
 
 ### Ling Ling (Forensics) - 10
 
 Since the question hints at soemthing to do with the creator of the image, we can use `exiftool` to look for metadata. The artist parameter contains the flag.
 
-Flag : `tjctf{ch0p1n_fl4gs}`
+> Flag : `tjctf{ch0p1n_fl4gs}`
 
 ### Login (Web) - 30
 
@@ -125,7 +132,7 @@ if (username == b("0x6") && temp == b("0x4")) {
 
 This means that if `username == "admin"` and `password == x` where `md5(x) == "4312a7be33f09cc7ccd1d8a237265798"` are entered as the right credentials, the flag would be displayed. We can use any online decrypter to decrypt this md5 hash and get `x == "horizons"`. So entering admin as the username and horizons as the password gives us the flag.
 
-Flag : `tjctf{horizons890898}`
+> Flag : `tjctf{horizons890898}`
 
 ### Typewriter (Crypto) - 30
 
@@ -149,7 +156,7 @@ for i in range(len(flag)):
                 print(alphabetical_order[j], end='')
 ```
 
-Flag : `tjctf{no_more_key_jams}`
+> Flag : `tjctf{no_more_key_jams}`
 
 ### File Viewer (Web) - 70
 
@@ -175,7 +182,7 @@ Flag : tjctf{l0CaL_f1L3_InCLUsi0N_is_bad}
 
 The webpage, although vulnerable to SQLi, filters out some characters like '--'. So we can bypass the filter by logging in with `admin'/*`
 
-Flag : `tjctf{W0w_wHa1_a_SqL1_exPeRt!}`
+> Flag : `tjctf{W0w_wHa1_a_SqL1_exPeRt!}`
 
 ### Titanic (Crypto) - 35
 
@@ -225,4 +232,4 @@ if found == False:
     print('flag not found :(')
 ```
 
-Flag : `tjctf{ismay's}`
+> Flag : `tjctf{ismay's}`
