@@ -1,0 +1,5 @@
+# VS Code settings file
+.vscode
+
+# MAC directory file
+.DS_Store
