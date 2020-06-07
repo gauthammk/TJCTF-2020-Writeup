@@ -205,18 +205,12 @@ for word in test_words:
             new_word += ch.lower()
     if len(new_word) != 0:
         wordlist.append(new_word)
-# print(test_words, wordlist)
 file_obj.close()
-# print(wordlist[8250:8260])
 
 # part 2 : test word against flag hashes
 # flag format : tjctf{pass}
 # flag hash : e246dbab7ae3a6ed41749e20518fcecd
 
-text = 'tjctf{titanic}'
-hash_obj = hashlib.md5(text.encode())
-test_hash = hash_obj.hexdigest()
-print(test_hash)
 flag_hash = 'e246dbab7ae3a6ed41749e20518fcecd'
 found = False
 for i, word in enumerate(wordlist):
